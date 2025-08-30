@@ -58,9 +58,9 @@ cwtoken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3MjQyMzg3OTEsImNvbiI6
 cptoken = "cptoken"
 pwtoken = "pwtoken"
 vidwatermark = '/d'
-raw_text2 = '480'
-quality = '480p'
-res = '854x480'
+raw_text2 = '1080'
+quality = '1080p'
+res = '1920x1080'
 topic = '/d'
 
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
@@ -1070,9 +1070,9 @@ async def credit(client, callback_query):
             cptoken = "cptoken"
             pwtoken = "pwtoken"
             vidwatermark = '/d'
-            raw_text2 = '480'
-            quality = '480p'
-            res = '854x480'
+            raw_text2 = '1080'
+            quality = '1080p'
+            res = '1920x1080'
             topic = '/d'
             await editable.edit(f"✅ Settings reset as default !", reply_markup=keyboard)
 
